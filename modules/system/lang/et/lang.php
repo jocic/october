@@ -37,6 +37,7 @@ return [
         'sv' => 'Svenska',
         'sk' => 'Slovenský',
         'sl' => 'Slovenščina',
+        'sr' => 'Srpski',
         'tr' => 'Türkçe',
         'zh-cn' => '简体中文',
         'zh-tw' => '繁體中文',

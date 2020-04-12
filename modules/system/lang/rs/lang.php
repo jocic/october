@@ -42,7 +42,7 @@ return [
         'sv' => 'Svenska',
         'sk' => 'Slovenský',
         'sl' => 'Slovenščina',
-        'sr' => 'Srpski',
+        'rs' => 'Srpski',
         'th' => 'ไทย',
         'tr' => 'Türkçe',
         'uk' => 'Українська мова',

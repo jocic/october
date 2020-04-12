@@ -101,8 +101,6 @@ return [
 
     'custom' => [
         'attribute-name' => [
-            'user' => 'korisnik',
-            'password' => 'lozinka',
             'rule-name' => 'uobičajena-poruka',
         ],
     ],
@@ -118,6 +116,10 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'name' => 'ime',
+        'password' => 'lozinka',
+        'user' => 'korisnik',
+    ],
 
 ];

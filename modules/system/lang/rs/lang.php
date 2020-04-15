@@ -71,7 +71,7 @@ return [
             'team' => 'Tim',
             'users' => 'Korisnici',
             'system' => 'Sistem',
-            'social' => 'Društvene',
+            'social' => 'Društvene mreže',
             'backend' => 'Pozadinski sistem',
             'events' => 'Događaji',
             'customers' => 'Mušterije',
@@ -144,7 +144,7 @@ return [
     'project' => [
         'name' => 'Projekat',
         'owner_label' => 'Vlasnik',
-        'attach' => 'Dodaj Project',
+        'attach' => 'Dodaj projekat',
         'detach' => 'Odvoji projekat',
         'none' => 'Nijedan',
         'id' => [
@@ -185,7 +185,7 @@ return [
         'smtp_encryption_tls' => 'TLS',
         'smtp_encryption_ssl' => 'SSL',
         'sendmail' => 'Sendmail',
-        'sendmail_path' => 'Sendmail lokacija',
+        'sendmail_path' => 'Sendmail putanja',
         'sendmail_path_comment' => 'Specificiraj putanju Sendmail programa.',
         'mailgun' => 'Mailgun',
         'mailgun_domain' => 'Mailgun domen',
@@ -330,7 +330,7 @@ return [
         'core_downloading' => 'Dopremanje fajlova aplikacije',
         'core_extracting' => 'Ekstrakcija fajlova aplikacije',
         'core_set_build' => 'Postavljanje broja verzije',
-        'changelog' => 'List izmena',
+        'changelog' => 'Lista izmena',
         'changelog_view_details' => 'Prikaži detalje',
         'plugins' => 'Priključci',
         'themes' => 'Teme',
@@ -464,7 +464,7 @@ return [
             'help' => 'Žao nam je, nešto je pošlo po zlu i željena stranica se ne može prikazati.',
         ],
         'invalid_token' => [
-            'label' => 'Bezbednosni token nije validan.',
+            'label' => 'Bezbednosni žeton nije validan.',
         ],
         'maintenance' => [
             'label' => "Odmah se vraćamo!",

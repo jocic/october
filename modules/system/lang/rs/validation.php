@@ -45,7 +45,7 @@ return [
     'image'                => 'Polje :attribute mora sadržati sliku.',
     'in'                   => 'Polje :attribute nema validnu vrednost.',
     'in_array'             => 'Polje :attribute ne sadrži vrednost koja postoji u polju :other.',
-    'integer'              => 'Polje :attribute mora sadržati ceo broj',
+    'integer'              => 'Polje :attribute mora sadržati ceo broj.',
     'ip'                   => 'Polje :attribute mora sadržati validnu IP adresu.',
     'ipv4'                 => 'Polje :attribute mora sadržati validnu IPv4 adresu.',
     'ipv6'                 => 'Polje :attribute mora sadržati validnu IPv6 adresu.',

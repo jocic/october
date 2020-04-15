@@ -2,7 +2,7 @@
 
 return [
     'cms_object' => [
-        'invalid_file' => 'Naziv fajla nije validan: :name. Nazivi fajlova mogu sadržati samo alfanumeričke simbole, donje crte, povlake i tačkke. Validni primeri su: strana.htm, strana, direktorijum/strana',
+        'invalid_file' => 'Naziv fajla nije validan: :name. Nazivi fajlova mogu sadržati samo alfanumeričke simbole, donje crte, povlake i tačke. Validni primeri su: strana.htm, strana, direktorijum/strana',
         'invalid_property' => "Svojstvo ':name' se ne može postaviti",
         'file_already_exists' => "Fajl ':name' već postoji.",
         'error_saving' => "Greška pri čuvanju fajla ':name'. Proveri dozvole na sistemu.",
@@ -17,7 +17,7 @@ return [
         'active_theme' => [
             'widget_title_default' => 'Sajt',
             'online' => 'Na mreži',
-            'maintenance' => 'U održavanju',
+            'maintenance' => 'U fazi održavanju',
             'manage_themes' => 'Upravljaj temama',
             'customize_theme' => 'Izmeni temu',
         ],
@@ -32,7 +32,7 @@ return [
         'edit' => [
             'not_set' => 'Tema za izmenu nije postavljena.',
             'not_found' => 'Tema za izmenu nije pronađena.',
-            'not_match' => "Objekat kojem pokušavaš da pristupiš ne pripada temu koju menjaš. Please reload the page. Osveži stranicu.",
+            'not_match' => "Objekat kojem pokušavaš da pristupiš ne pripada temi koju menjaš. Osveži stranicu.",
         ],
         'settings_menu' => 'Teme',
         'settings_menu_description' => 'Upravljaj temama i opcijama prilagođavanja.',
@@ -104,8 +104,8 @@ return [
     'page' => [
         'not_found_name' => "Strana ':name' nije pronađena",
         'not_found' => [
-            'label' => 'Stran nije pronađena',
-            'help' => 'Tražena stran nije pronađena.',
+            'label' => 'Strana nije pronađena',
+            'help' => 'Tražena strana nije pronađena.',
         ],
         'custom_error' => [
             'label' => 'Greška sa stranom',
@@ -225,7 +225,7 @@ return [
         'type_not_allowed' => 'Samo sledeći tipovi fajla su dozvoljeni: :allowed_types',
         'file_not_valid' => 'Fajl nije validan',
         'error_uploading_file' => "Greška pri otpremanju fajla ':name': :error",
-        'move_please_select' => 'izaberi',
+        'move_please_select' => 'Izaberi',
         'move_destination' => 'Odredište direktorijuma',
         'move_popup_title' => 'Pomeri sredstva',
         'move_button' => 'Pomeri',
@@ -244,7 +244,7 @@ return [
         'unnamed' => 'Bez naziva',
         'no_description' => 'Opis nije dat',
         'alias' => 'Pseudonim',
-        'alias_description' => 'Jedinstven naziv dat komponenti kada se koristi u stranici ili kodu plana.',
+        'alias_description' => 'Jedinstven naziv koji je dat komponenti kada se koristi u stranici ili kodu plana.',
         'validation_message' => 'Pseudonimi komponente su neophodni i mogu sadržati samo latinske simbole, brojeve i donje crte. Pseudonimi bi trebalo da počinju latinskim simbolom.',
         'invalid_request' => 'Šablon ne može biti sačuvan zbog podataka koji nisu validni.',
         'no_records' => 'Nema pronađenih komponenti',
@@ -268,7 +268,7 @@ return [
         'manage_pages' => 'Napravi, modifikuj i izbriši stranice sajta',
         'manage_layouts' => 'Napravi, modifikuj i izbriši planove CMS-a',
         'manage_partials' => 'Napravi, modifikuj i izbriši parcijale CMS-a',
-        'manage_themes' => 'Aktiviraj, deaktiviraj i konfiguriši tmee CMS-a',
+        'manage_themes' => 'Aktiviraj, deaktiviraj i konfiguriši teme CMS-a',
         'manage_theme_options' => 'Konfiguriši opcije izmena za aktivnu temu',
     ],
     'theme_log' => [
